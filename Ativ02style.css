@@ -1,0 +1,87 @@
+
+ 
+
+/* Navegação */
+
+   header{
+    color: rgb(15, 20, 25);
+            text-decoration: none;
+            text-transform: none;
+   }
+
+   li{
+    border: 1px solid;
+    border-radius: 25px;
+   }
+
+    li:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+}
+    /* Estatistica */
+    section{
+        color: rgb(83, 100, 113);
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    #textestatic{
+        color: rgb(83, 100, 113);
+        text-decoration-line: none;
+        display: inline;
+    }
+
+    #number{
+        color: rgb(15, 20, 25);
+        font-weight: bold;
+        text-decoration-line: none;
+        display: inline;
+    }
+
+    /* ações */
+        #actions{
+            color: rgb(83, 100, 113);
+            text-decoration: none;
+           
+        }
+            
+        #replyShare{
+            background-color: rgba(29, 155, 240, 0.1);
+            color:  rgba(29, 155, 240, 1);
+            text-decoration: none;
+            border: 1px solid;
+        border-radius: 25px;
+        }
+        
+        #like{
+            background-color: rgba(249, 24, 128, 0.1);
+            color: rgba(249, 24, 128, 1);
+            text-decoration: none;
+            border: 1px solid;
+        border-radius: 25px;
+        }
+    
+        #retzeet{
+            background-color: rgba(0, 186, 124, 0.1);
+            color: rgba(0, 186, 124, 1);
+            text-decoration: none;
+            border: 1px solid;
+        border-radius: 25px;
+        }
+    
+    /* Outros */
+
+    #text1{
+        color:  rgb(15, 20, 25);
+        text-decoration: none;
+        display: inline;
+        
+    }
+
+    #text2{
+        color: rgb(83, 100, 113);
+        text-decoration: none;
+    }
+
+    
+
+
