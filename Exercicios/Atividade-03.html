@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweezlie 0.3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet"
+    type="text/css" href="Ativ03style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+        
+    </style>
+    
+</head>
+<body>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <!--Layout 1-Navegação-->
+    <header>
+      <img id="imgLogo" src="../Imagens/tiziu.png" alt="Tweezlie">
+      <ul>
+          <li> <i class="bi bi-house-door"> </i> <a href=""> Home</a></li>
+          <li> <i class="bi bi-hash"></i><a href="">Explorar</a></li>
+          <li> <i class="bi bi-bell"></i><a href="">Notificações</a></li>
+          <li> <i class="bi bi-envelope"></i> <a href="">Mensagens</a></li>
+          <li> <i class="bi bi-bookmark"></i><a href="">Álbum</a></li>
+          <li> <i class="bi bi-card-list"></i><a href="">Listas</a></li>
+          <li> <i class="bi bi-person-fill"></i><a href="">Perfil</a></li>
+          <li> <i class="bi bi-three-dots"></i><a href="">Mais</a></li>
+      </ul>
+      
+
+  <!--Botão Tweeter-->
+  <button type="button" class="btn btn-primary">Tweez</button>
+
+  </header>
+      </div>
+      <div class="col-6">
+        <!--Perfil-->
+    <!--Usuario-->
+    <!--Editar perfil/Botão-->
+    <div class="image-overlay">
+      <a href="">
+      <img id="imgProfile" src="../Imagens/user-1.png" alt="Edita perfil">
+      <div class="overlay">
+          <span>Editar Perfil</span>
+      </div>
+  </div>
+</a>  
+<!--Informações do usuario-->
+  <!--Nome-->
+
+  
+  <p id="text1"> Hyago de Sousa Correia</p>
+
+  <p id="text2">@Azartras</p>
+  <!--Descrição-->
+  <p id="text5">Memes tipos de carinhas são</p>
+  <!--Data-->
+  <a id="text3" href=""><i class="bi bi-geo-alt"> </i>Quixadá-CE</a> <br>
+  <p id="text3"><i class="bi bi-calendar3"> <a href=""> </i>ingressou em agosto de 2021</a> <br>
+
+<!--Estatistica-->
+<br>
+<section>
+          <div id="number">55</div>
+      <a id="textestatic" href="" > 
+           Seguindo</a> 
+  
+          <div id="number">145</div>
+      <a id="textestatic" href="" > 
+          Seguidores</a>
+</section> 
+<br>
+
+<!--Publicações-->
+
+<div class="containerText">
+  <div class="row">
+    
+    <div class="col-sm"><a href="">Tzeets</a></div>
+    <div class="col-sm"><a href="">Tzeets & repostagens</a></div>
+    <div class="col-sm"><a href="">Midia</a></div>
+    <div class="col-sm"><a href="">Tzeets</a></div>
+    
+  </div>
+</div>
+
+<!--Coluna Central -->
+
+
+<div class="postagem">
+
+  <img id="imgProfilePost" src="../Imagens/user-1.png" alt="Edita Perfil"> 
+  <a id="text1"href="">Hyago de Sousa Correia</a> <br>
+  <a id="text2"href="">@Azartras</a>
+  <div id="text2">Data 23 de setembro 2022</div> <br>
+  
+  <div id="text5"> Tarefa em progresso</div> <br>
+
+  <div class="row">
+      
+  <div class="col-sm"> <a id="retzeet"href=""> <i class="bi bi-chat"> </i> 80 </a> </div>
+  <div class="col-sm"> <a id="replyShare"href=""> <i class="bi bi-arrow-repeat"> </i> 50</a></div>
+  <div class="col-sm"> <a id="like" href=""> <i class="bi bi-hand-bi bi-heart"> </i> 100</a></div>
+  <div class="col-sm"> <a id="share"href="">  <i class="bi bi-share"> </i></a></div>  
+  </div>
+
+</div>
+      </div>
+      <div class="col">
+        <!--Coluna direita-->
+
+
+    <!--Form de busca-->
+    
+    <div class="forms">
+      <form action= "/search" method= Get></form>
+  <form action="/search">
+      <div class="col">
+          <!-- UserInputGroup -->
+          <div class="UserInputGroup">
+            <div class="input-group mb-3">
+              <span class="input-group-text">
+                <i class="bi bi-search"></i>
+              </span>
+              <div class="form-floating">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingInputGroup1"
+                  placeholder="Username"
+                />
+                <label for="floatingInputGroup1">Username</label>
+              </div>
+            </div>
+          </div>
+  </form>
+ 
+</div>
+  <!--Usuarios-->
+<!-- UserRecomended -->
+<div class="UserRecomended">
+  <!-- usuarioSuger -->
+  <div class="usuario">
+      <div>
+        <img id="imgProfilePost" src="../Imagens/User-3.png" alt="Diives">
+      </div>
+        <div class="UserLink">
+          <a id="text1" href="">Gu</a>
+        </div>
+        <button type="button" class="btn btn-dark">Seguir</button>
+     
+        </div>
+
+  <!-- usuarioSuger -->
+  <div class="usuario">
+      <div>
+        <img id="imgProfilePost" src="../Imagens/User-7.png" alt="Diives">
+      </div>
+        <div class="UserLink">
+          <a id="text1" href="">Dou</a>
+        </div>
+        <button type="button" class="btn btn-dark">Seguir</button>
+     
+        </div>
+
+  <!-- usuarioSuger -->
+  <div class="usuario">
+    <div>
+      <img id="imgProfilePost" src="../Imagens/User-10.png" alt="Diives">
+    </div>
+      <div class="UserLink">
+        <a id="text1" href="">Heketa</a>
+      </div>
+      <button type="button" class="btn btn-dark">Seguir</button>
+   
+      </div>
+  </div>
+
+  <!--sugestão-->
+  <a id="text1" href=""> Mostrar mais </a>
+
+<div>
+
+</div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</body>
+</html>

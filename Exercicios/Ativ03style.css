@@ -1,0 +1,322 @@
+
+*{
+    padding: 0;
+    margin: 0;
+     }
+
+    body{
+    background-color: white;
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+     }
+
+    .col-sm{
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .col-sm:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+     /* Navegação */
+     
+    #imgLogo{
+        padding: 10px;
+     }
+
+    #imgProfile{
+        width: 80px;
+        height: 80px;
+        border: 2px solid black;
+        border-radius: 60px;  
+    }
+
+    #imgProfilePost{
+        width: 60px;
+        height: 60px;
+        border: 2px solid black;
+        border-radius: 60px;  
+    }
+
+    #imgProfileFollow{
+        width: 90px;
+        height: 90px;
+        border: 2px solid black;
+        border-radius: 60px;  
+    }
+
+    /* Botão */
+
+    /* .botao{
+        display: block;
+        width: 80%;
+        height: 40px;
+        background-color: rgb(77, 11, 165);
+        border-radius: 60px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+
+    .botao2{
+        display: block;
+        width: 120px;
+        height: 40px;
+        background-color: rgb(28, 26, 31);
+        padding: 5px;
+        border-radius: 60px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    } */
+
+    /* .botao:hover{
+        background-color: rgb(32, 7, 63);
+    }
+
+    .botao2:hover{
+        background-color: rgb(50, 14, 94);
+    } */
+
+    /* Perfil */
+    .image-overlay{
+            width: 80px;
+            height: 80px;
+            position: relative;
+            
+        }
+
+        .image-overlay img{
+            display: block;
+        }
+
+         .image-overlay .overlay{
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: opacity 500ms, transform 500ms;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: scale(0,0);
+            border-radius: 60px;
+        }
+
+        .image-overlay:hover .overlay{
+            opacity: 1;
+            transform: scale(1,1);
+        }
+
+        .image-overlay .overlay span{
+            display: block;
+            text-align: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 100%;
+        }
+
+        .abasContainer {
+            display: flex;
+            flex-direction: row;
+          }
+    
+
+    /* postagem */
+    
+    .postagem{
+        background-color: transparent;
+        border: 0px solid rgba(15, 25, 20, 0.1);
+        width: 100%;
+        height: 50%;
+        padding: 30px;
+        text-align: left;
+    }
+    .postagem:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+
+    }
+
+    
+    /* header */
+    header{
+    color: rgb(15, 20, 25);
+            text-decoration: none;
+            text-transform: none;
+   }
+   /* listas */
+   ul{
+    color:  rgb(15, 20, 25);
+    padding: 5px;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding-left: 0;
+    list-style-type: none;
+   }
+
+   li{
+    padding: 5px;
+    border: 0px solid;
+    border-radius: 50px;
+   }
+   a{
+    text-decoration: none;
+    color: rgb(31, 47, 63);;
+   }
+
+   a:hover{
+    color: rgb(31, 47, 63);;
+   }
+
+    li:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+    }   
+    /* Estatistica */
+    section{
+        color: rgb(83, 100, 113);
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    #textestatic{
+        color: rgb(83, 100, 113);
+        text-decoration-line: none;
+        display: inline;
+    }
+
+    #number{
+        color: rgb(15, 20, 25);
+        font-weight: bold;
+        text-decoration-line: none;
+        display: inline;
+    }
+
+    /* ações */
+        #actions{
+            color: rgb(83, 100, 113);
+            text-decoration: none;
+           
+        }
+            
+        #replyShare{
+            background-color: rgba(29, 155, 240, 0.0);
+            color: rgb(83, 100, 113);
+            text-decoration: none;
+            text-align: center;
+            border: 0px solid;
+        border-radius: 25px;
+        }
+
+        #replyShare:hover{
+            background-color: rgba(29, 155, 240, 0.1);
+            color: rgba(29, 155, 240, 1);
+        }
+        
+        #like{
+            background-color: rgba(249, 24, 128, 0.0);
+            color: rgb(83, 100, 113);
+            text-decoration: none;
+            text-align: center;
+            border: 0px solid;
+        border-radius: 25px;
+        }
+
+        #like:hover{
+            background-color: rgba(29, 155, 240, 0.1);
+            color: rgba(249, 24, 128, 1);
+        }
+    
+        #retzeet{
+            background-color: rgba(0, 186, 124, 0.0);
+            color: rgb(83, 100, 113);
+            text-decoration: none;
+            text-align: center;
+            border: 0px solid;
+        border-radius: 25px;
+        }
+
+        #retzeet:hover{
+            background-color: rgba(29, 155, 240, 0.1);
+            color: rgba(0, 186, 124, 1);
+        }
+
+        #share{
+            background-color: rgba(0, 186, 124, 0.0);
+            color: rgb(83, 100, 113);
+            text-decoration: none;
+            text-align: center;
+            border: 0px solid;
+        border-radius: 25px;
+        }
+
+        #share:hover{
+            background-color: rgba(29, 155, 240, 0.1);
+            color: rgb(77, 11, 165);
+        }
+
+    /* Recomendações */
+        .usuario{
+            display: flex;
+            width: 100%;
+            height: 100px;
+            background-color: rgba(0, 0, 0, 0.1);
+            text-align: left;
+            margin-top: 10px;
+            border-radius: 25px;
+            align-items: center;
+            justify-content: space-evenly;
+        
+        }
+    
+    /* Tipo de textos */
+
+    #text1{
+        color:  rgb(15, 20, 25);
+        text-decoration: none;
+        display: block;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        
+    }
+
+    #text2{
+        color: rgb(83, 100, 113);
+        text-decoration: none;
+        display: block;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #text3{
+        color: rgb(31, 47, 63);
+        text-decoration: underline;
+        display: inline;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #text4{
+        color:  rgb(15, 20, 25);
+        text-decoration: underline;
+        display: inline;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #text5{
+        color:  rgb(15, 20, 25);;
+        text-decoration: none;
+        display: block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        
+    }
+    
+
+
